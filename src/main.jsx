@@ -4,7 +4,7 @@ import App from './App.jsx'
 import './index.css'
 
 import { ThemeProvider, createTheme } from '@mui/material/styles';
-import { createBrowserRouter, createRoutesFromElements, RouterProvider, Route } from 'react-router-dom'
+import { createBrowserRouter, createRoutesFromElements, RouterProvider, Route, createHashRouter } from 'react-router-dom'
 
 import Portfolio from './components/portfolio/Portfolio.jsx';
 import Landing from './components/landing/Landing.jsx';
@@ -19,7 +19,7 @@ const theme = createTheme({
   },
 })
 
-const router = createBrowserRouter(
+const router = createHashRouter(
   createRoutesFromElements(
       <>
         <Route path='' element={<Landing/>} />
