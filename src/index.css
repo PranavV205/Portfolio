@@ -13,7 +13,9 @@
   @apply underline;
 }
 
-
+.parent-ab:hover > div > div > b {
+  @apply underline;
+}
 
 html,
 body {

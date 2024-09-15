@@ -10,7 +10,6 @@ function SideBar() {
   useEffect(() => {
     const typed = new Typed(el.current, {
       strings: ['a frontend enthusiast', 'an aspiring web developer'],
-      typeSpeed: 50,
       showCursor: false,
       backDelay: 300,
       backSpeed: 75,

@@ -15,7 +15,7 @@ function Hero() {
           <div className='grid-span-1'></div>
           <Box component="section" className='flex justify-center items-center flex-col'>
             <span className='batman '>Pranav Vaswani</span>
-            <a className='batman cursor-pointer hover:underline text-4xl' href='/portfolio'>Visit Profile</a>
+            <a className='batman cursor-pointer hover:underline text-4xl' href='/#/profile'>Visit Profile</a>
           </Box>
       </div>
     </div>
