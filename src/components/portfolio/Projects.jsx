@@ -17,7 +17,7 @@ function Projects() {
     <Box className='mt-4'>
         <Masonry columns={2} spacing={2}>
             <Paper key={1} sx={{ 'backgroundColor': '#c2e3ff' ,'height': 'auto', 'color': 'black' }} className='flex'>
-                <a href='/#/projects/memegen' className='parent-ab'>
+                <a href='/Portfolio/#/projects/memegen' className='parent-ab'>
                     <div className='flex flex-col p-3'>
                         <div className='flex flex-row justify-between items-center'>
                             <b className=''>Meme Generator</b>
@@ -56,7 +56,7 @@ function Projects() {
                 </a>
             </Paper>
             <Paper key={3} sx={{ 'backgroundColor': '#c2e3ff' ,'height': 'auto', 'color': 'black' }} className=''>
-                <a href='/#/profile' className='parent-a'>                   
+                <a href='/Portfolio/#/profile' className='parent-a'>                   
                         <div className='flex flex-row justify-between items-center h-full p-5'>
                             <b className=''>Portfolio</b>
                             <Stack direction={'row'}>

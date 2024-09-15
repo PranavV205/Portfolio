@@ -38,8 +38,8 @@ function SideBar() {
         </ul>
         <div className='flex justify-center items-center'>
           <Stack direction={'row'} spacing={1}>
-            <a className='cursor-pointer hover:animate-pulse' href=''><i className='bx bxl-github bx-md' ></i></a>
-            <a className='cursor-pointer hover:animate-pulse' href=''><i className='bx bxl-linkedin bx-md' ></i></a>
+            <a className='cursor-pointer hover:animate-pulse' href='https://github.com/PranavV205'><i className='bx bxl-github bx-md' ></i></a>
+            <a className='cursor-pointer hover:animate-pulse' href='https://www.linkedin.com/in/pranav-vaswani-885b1b28a/'><i className='bx bxl-linkedin bx-md' ></i></a>
           </Stack>
         </div>
     </div>
