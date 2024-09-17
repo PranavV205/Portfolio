@@ -30,13 +30,8 @@ function SideBar() {
         <h1 className='text-6xl mb-1'>Pranav Vaswani</h1>
         <span className='text-4xl mb-5' ref={el}></span>
         <p>I am a sophomore pursuing a degree</p>
-        <p className='mb-16'>in Artificial Intelligence and Data Science.</p>
-        <ul className='mb-16'>
-            <li className='mb-1'><a href=''><i class='bx bxs-label bx-flashing' ></i> Experience</a></li>
-            <li className='mb-1'><a href=''><i class='bx bxs-label bx-flashing' ></i> TechStack</a></li>
-            <li><a href=''><i class='bx bxs-label bx-flashing' ></i> Projects</a></li>
-        </ul>
-        <div className='flex justify-center items-center'>
+        <p className='mb-5'>in Artificial Intelligence and Data Science.</p>
+        <div className='flex items-center'>
           <Stack direction={'row'} spacing={1}>
             <a className='cursor-pointer hover:animate-pulse' href='https://github.com/PranavV205'><i className='bx bxl-github bx-md' ></i></a>
             <a className='cursor-pointer hover:animate-pulse' href='https://www.linkedin.com/in/pranav-vaswani-885b1b28a/'><i className='bx bxl-linkedin bx-md' ></i></a>
