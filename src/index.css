@@ -33,6 +33,7 @@ body {
   width: 100vw;
   color: black;
   font-family: 'Noto Sans', sans-serif;
+  overflow: hidden;
 }
 
 #root {

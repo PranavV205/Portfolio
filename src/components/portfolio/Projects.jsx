@@ -20,7 +20,7 @@ function Projects() {
                 <a href='/Portfolio/#/projects/memegen' className='parent-ab'>
                     <div className='flex flex-col p-3'>
                         <div className='flex flex-row justify-between items-center'>
-                            <b className=''>Meme Generator</b>
+                            <b className=''>Meme Hub</b>
                             <Stack direction={'row'}>
                                 <i className='bx bxl-javascript bx-sm' ></i>
                                 <i className='bx bxl-react bx-sm' ></i>   
@@ -32,8 +32,9 @@ function Projects() {
                             className='w-full rounded-lg mt-3'
                         />
                         <ul className='mt-3 text-sm' >
-                            <li>- Static website looping over a list of images to randomly showcase one and the option to add text at the top and bottom.</li>
-                            <li>- Core React concepts used such as props, useState, useEffect, onChange attribute, etc.</li>
+                            <li>- Developed a dynamic website that integrates an API to retrieve and display memes based on subreddit categories</li>
+                            <li>- Created a feature allowing users to generate random images (API) and create custom memes</li>
+                            <li>- Utilized web development techniques including custom hooks, Fetch API, React Router, Tailwind CSS and state management with React(props, state and useEffect)</li>
                         </ul>
                     </div>
                 </a>
@@ -49,8 +50,8 @@ function Projects() {
                             </Stack> 
                         </div>
                         <ul className='mt-3 text-sm' >
-                            <li>- A basic django project where a user can vote on choices to particular questions and display overall votes on specific choices.</li>
-                            <li>- Showcasing core django concepts of working with urls, routing, models, views, templates and admin.</li>
+                            <li>- Constructed an interactive polling app where users can vote on specific questions with vote tallies displayed for each option</li>
+                            <li>- Demonstrate core Django functionality including URL routing, models, views, templates the Django admin interface</li>
                         </ul>
                     </div>
                 </a>
